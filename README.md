@@ -9,6 +9,16 @@ for choosing the STIX-2 data source and destination systems.
 ### Installation and packaging
 Download this repo, and install the latest [SBT](http://www.scala-sbt.org/). 
 
+Brew is broken for Scala, instead install scala using: 
+
+curl -s "https://get.sdkman.io" | bash   
+source "/Users/taci7/.sdkman/bin/sdkman-init.sh" 
+sdk install sbt
+
+You will also need to install Oracle JDK 8 (has javafx bundled)
+
+Also, change the version in the build.sbt file to the right version of SBT
+
 To compile the source code and assemble the application and all its dependencies into a single fat jar file, use [SBT](http://www.scala-sbt.org/) and type:
 
     sbt assembly
