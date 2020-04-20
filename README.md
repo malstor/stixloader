@@ -12,7 +12,7 @@ Download this repo, and install the latest [SBT](http://www.scala-sbt.org/).
 Brew is broken for Scala, instead install scala using: 
 
 curl -s "https://get.sdkman.io" | bash   
-source "/Users/taci7/.sdkman/bin/sdkman-init.sh" 
+source ".sdkman/bin/sdkman-init.sh" 
 sdk install sbt
 
 You will also need to install Oracle JDK 8 (has javafx bundled)
